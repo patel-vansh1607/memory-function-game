@@ -1,6 +1,6 @@
 import "../styles/game.css"
 import { useState } from 'react'
-import Card from './Card'
+import Card from './card'
 
 
 const MemoryGame = () => {
