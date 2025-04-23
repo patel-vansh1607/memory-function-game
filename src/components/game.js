@@ -2,6 +2,8 @@ import "../styles/game.css"
 
 
 const MemoryGame = () => {
+
+    const [prev, setPrev] = useState(-1) 
     return(
         <div>
             <div className="game">
