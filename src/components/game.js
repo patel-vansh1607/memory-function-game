@@ -23,7 +23,16 @@ const MemoryGame = () => {
             }, 1000)
         }
     }
-    
+    function handleClick(id){
+        if(prev === -1){
+            items[id].stat = "active"
+            setItems([...items])
+            setPrev(id)
+        }else{
+            check(id)
+        }
+    }
+
     return(
         <div>
             <div className="game">
